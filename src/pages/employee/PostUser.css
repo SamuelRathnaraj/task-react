@@ -1,0 +1,30 @@
+.center-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: rgb(0, 0, 255);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.center-form h1{
+    font-style: italic;
+    color: aliceblue;
+
+}
+
+.center-form Form{
+    margin-top: 20px;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #c4bdaa;
+    border-radius: 5px;
+    background-color: #cecece;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.center-form Form .form-control{
+    margin-bottom: 20px;
+    padding: 10px;
+}
